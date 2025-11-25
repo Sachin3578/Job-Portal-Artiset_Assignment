@@ -1,0 +1,139 @@
+.jobs-section {
+  width: 100%;
+  padding: 80px 60px;
+  background: #f8f9fa;
+  box-sizing: border-box;
+}
+
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobs-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+
+.view-all {
+  color: #1bb68a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: #666;
+  max-width: 560px;
+  line-height: 1.4;
+}
+
+/* JOB LIST */
+.jobs-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* JOB CARD */
+.job-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.04);
+  transition: 0.2s ease;
+}
+
+.job-card:hover {
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.08);
+}
+
+.time-tag {
+  color: #18b68a;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding-right: 45rem;
+}
+
+/* Logo + Job Title + Company Name */
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.job-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  object-fit: cover;
+}
+
+.job-title {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+  color: #111;
+}
+
+.company {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #777;
+  padding-right: 180px;
+}
+
+/* Job details */
+.job-details {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  font-size: 14px;
+  color: #444;
+}
+
+.job-details span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Right side button */
+.job-right {
+  display: flex;
+  align-items: center;
+}
+
+.job-icon {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #1bb68a;
+}
+
+
+.details-btn {
+  background: #1bb68a;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease-in-out;
+}
+
+.details-btn:hover {
+  background: #159a74;
+}

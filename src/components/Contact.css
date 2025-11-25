@@ -1,0 +1,146 @@
+.contact-section {
+  width: 100%;
+  padding: 80px 100px;
+  background: #ffffff;
+}
+
+.contact-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  color: black;
+}
+
+/* MAIN LAYOUT */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contact-left {
+  width: 50%;
+}
+
+.contact-left h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contact-desc {
+  color: #555;
+  margin-bottom: 30px;
+  width: 90%;
+  line-height: 1.6;
+}
+
+/* ICON TEXT LAYOUT */
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.info-card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: 28px;
+  color: #1bb68a;
+  margin-top: 15px;
+}
+
+.contact-info h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.contact-info p {
+  color: #444;
+  margin-top: 4px;
+}
+
+/* RIGHT SIDE FORM */
+.contact-form {
+  width: 40%;
+  padding: 25px;
+  background: #e8f7f3;
+  border-radius: 12px;
+}
+
+.contact-form h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 14px;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #1bb68a;
+}
+
+.send-btn {
+  width: 100%;
+  background: #1bb68a;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background: #159a74;
+}
+
+/* MAP */
+.map-container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+  border-radius: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-left,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
