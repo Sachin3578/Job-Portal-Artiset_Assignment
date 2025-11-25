@@ -3,12 +3,6 @@
 A fully responsive and modern Job Portal built using **React (Vite)** and **pure CSS**, designed for job seekers to explore opportunities and apply instantly.  
 It includes a clean UI, job listings, smooth navigation, contact form, Google Map integration, and more.
 
----
-
-## 🚀 Live Demo
-
-(Add your Render deployment URL here)  
-`https://your-job-portal.onrender.com`
 
 ---
 
