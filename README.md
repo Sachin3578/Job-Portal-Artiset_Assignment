@@ -1,16 +1,84 @@
-# React + Vite
+# 🌐 JobBridge – Modern Job Portal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and modern Job Portal built using **React (Vite)** and **pure CSS**, designed for job seekers to explore opportunities and apply instantly.  
+It includes a clean UI, job listings, smooth navigation, contact form, Google Map integration, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+(Add your Render deployment URL here)  
+`https://your-job-portal.onrender.com`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎯 Landing Page
+- Modern hero section with blurred background image
+- Job search bar with filters (Location + Category)
+- Fully responsive design
+
+### 💼 Jobs Section
+- Dynamic job listings
+- Company logo support
+- Icons for salary, category, location & job type
+- “Apply Now” button
+- Clean professional job card UI
+
+### 🏢 About Us Section
+- Beautiful layout with text + image
+- Smooth scroll navigation
+- Well-structured description
+
+### ✉️ Contact Section
+- Contact info with icons:
+  - 📞 Call  
+  - 📧 Email  
+  - 🕒 Opening Hours  
+  - 📍 Location  
+- Contact form (First name, Last name, Email, Message)
+- Google Maps embed (VIIT Pune)
+- Responsive layout
+
+### 🦶 Footer
+- Black theme footer
+- Quick links (Home, Jobs, About, Contact)
+- Smooth scroll support
+- Contact details
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|----------|
+| **React (Vite)** | Frontend UI |
+| **Pure CSS** | Styling (no Tailwind) |
+| **React Icons** | UI icon components |
+| **Google Maps Embed** | Location display |
+| **Render** | Deployment |
+
+---
+
+## 📂 Project Structure
+
+jobbridge/
+│── public/
+│── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── Jobs.jsx
+│ │ ├── About.jsx
+│ │ ├── Contact.jsx
+│ │ ├── Footer.jsx
+│ ├── assets/
+│ ├── App.jsx
+│ ├── main.jsx
+│── package.json
+│── vite.config.js
+│── README.md
+
+npm install
+npm run dev
